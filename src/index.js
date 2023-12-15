@@ -8,6 +8,7 @@ import AllProducts from './pages/AllProducts';
 import NewProduct from './pages/NewProduct';
 import ProductDetail from './pages/ProductDetail';
 import MyCart from './pages/MyCart';
+import Login from './pages/Login';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       {path:'/products/new', element: <NewProduct/>},
       {path:'/products/:id', element: <ProductDetail/>},
       {path:'/carts', element: <MyCart/>},
+      {path:'/login', element: <Login/>},
     ]
   }
 ])
